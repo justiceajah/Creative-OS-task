@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.hide {
+  display: none;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #f4f4f4;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.back-button {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.tab {
+  flex: 1;
+  text-align: center;
+  padding: 5px 0;
+  cursor: pointer;
+}
+
+.tab.active {
+  color: #000;
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
+
+.carousel-indicator {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.dot.active {
+  background-color: #000;
+}
+
+.content {
+  padding: 20px;
+}
+
+.banner {
+  background-color: #f9a488;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.promo {
+  text-align: center;
+  background-color: #d4d2c9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.promo h2 {
+  margin: 10px 0;
+  color: #6e6e56;
+}
+
+.promo h3 {
+  margin: 10px 0;
+  color: #b4b093;
+}
+
+.promo p {
+  margin: 15px 0;
+  color: #73736e;
+}
+
+.shop-all,
+.shop-cookware {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #e5e2c6;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.shop-cookware {
+  background-color: #42403a;
+  color: #fff;
+}
+
+.reward {
+  text-align: center;
+  background-color: #f3e7d3;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.reward h2 {
+  color: #404034;
+  margin: 10px 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  background-color: #f9f9f9;
+}
+
+.footer-button {
+  flex: 1;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
