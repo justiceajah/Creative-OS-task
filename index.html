@@ -13,51 +13,111 @@
     <title>Creative OS</title>
   </head>
   <body>
-    <script src="script.js"></script>
+    <script src="/scripts/script.js"></script>
+    <script src="/scripts/button.js"></script>
+    <script src="/scripts/platformcard.js"></script>
+    <script src="/scripts/leftNavBar.js"></script>
+    <script src="/scripts/searchBox.js"></script>
 
+    <div class="nav-header">
+        <img class="header-content" src="/assets//logo.svg" alt="logo-img" />
+        <div class="search-box-container">
+          <search-bar></search-bar>
+        </div>
+        <img class="header-content" src="/assets/menu.svg" alt="menu-button" />
+      </div>
     <div class="container">
-      
-      <div class="container">
-        <header class="header">
-          <button class="back-button">Back</button>
-          <h1>Carraway’s Funnel</h1>
-        </header>
-        <nav class="nav">
-          <span class="tab active">Ad creative</span>
-          <span class="tab">Landing page</span>
-        </nav>
-        <div class="carousel-indicator">
-          <span class="dot"></span>
-          <span class="dot active"></span>
+        
+      <div class="left-navbar-container">
+        
+        <left-sidebar></left-sidebar>
+      </div>
+      <div>
+        <div class="">
+          <div class="divider"></div>
+          <div>
+            <header class="header">
+              <div class="header-button-container">
+                <custom-button>Back</custom-button>
+              </div>
+
+              <h1 class="page-header">Carraway’s Funnel</h1>
+            </header>
+            <div class="divider"></div>
+            <div class="tab-container">
+              <div class="tabs">
+                <div class="tab">Ad creative</div>
+                <div class="line"></div>
+                <div class="tab tab-item-end">Landing page</div>
+              </div>
+              <div class="carousel-container">
+                <div class="carousel-indicator">
+                  <span class="dot"></span>
+                  <span class="dot active"></span>
+                </div>
+
+                <div class="visit-page">
+                  <span>View laading Page</span>
+                  <img src="/assets/visit-icon.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="left-content-wrapper">
+            <div class="content-main-wrapper">
+              <div class="content-container-sm">
+                <div class="">
+                  <img
+                    class="content-img"
+                    src="/assets/creative-vertical.svg"
+                    alt="menu-button"
+                  />
+                </div>
+                <div class="button-container">
+                  <div class="bottom-items-container">
+                    <custom-button>Request Template</custom-button>
+                    <custom-button>Save</custom-button>
+                    <custom-button>
+                      <img src="./assets/Group 93.svg" alt="" />
+                    </custom-button>
+                  </div>
+                </div>
+              </div>
+              <div class="content-container-lg">
+                <div class="content">
+                  <img
+                    class="content-img"
+                    src="/assets/creative-lp-large.svg"
+                    alt="menu-button"
+                  />
+                </div>
+                <div class="button-container">
+                  <div class="bottom-items-container">
+                    <custom-button>Request Template</custom-button>
+                    <custom-button>Save</custom-button>
+                    <custom-button>
+                      <img src="./assets/Group 93.svg" alt="" />
+                    </custom-button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="bottom-content">
+            <div class="bottom-items-container">
+              <custom-button>Shared Funnel</custom-button>
+              <custom-button>Save Funnel</custom-button>
+            </div>
+          </div>
+
+          <div class="bottom-containers">
+            <p class="bottom-containers-header-text">Creative Highlights</p>
+            <div class="platform-slot-container">
+              <platform-card></platform-card>
+            </div>
+          </div>
         </div>
-        <div class="content">
-          <div class="banner">
-            <p>
-              Limited Time Offer: Spend $95+ & Receive up to $200 Off Your Next
-              Purchase
-            </p>
-          </div>
-          <div class="promo">
-            <h2>SPRING SAVINGS EVENT</h2>
-            <h3>Unlock A Free Reward</h3>
-            <p>
-              This month only, spend $95+ and receive up to $200 off your next
-              purchase.*
-            </p>
-            <button class="shop-all">Shop All</button>
-            <button class="shop-cookware">Shop Cookware Set</button>
-          </div>
-          <div class="reward">
-            <p>SHOP & RECEIVE UP TO A</p>
-            <h2>$200 REWARD*</h2>
-          </div>
-        </div>
-        <footer class="footer">
-          <button class="footer-button">Request Template</button>
-          <button class="footer-button">Save</button>
-          <button class="footer-button">Share Funnel</button>
-          <button class="footer-button">Save Funnel</button>
-        </footer>
       </div>
     </div>
   </body>
