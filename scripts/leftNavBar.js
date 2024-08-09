@@ -91,9 +91,9 @@ class LeftSidebar extends HTMLElement {
             </div>
             <div class="featured-section">
                 <h3>FEATURED</h3>
-                <div class="featured-item">Hidden gems <span class="lock-icon"> <img src="/assets/tag-pro.png" alt="tag pro"/></span></span></div>
-                <div class="featured-item">Evergreen ads <span class="lock-icon"><img src="/assets/tag-pro.png" alt="tag pro"/></span></div>
-                <div class="featured-item">Testing lab <span class="lock-icon"><img src="/assets/tag-pro.png" alt="tag pro"/></span></div>
+                <div class="featured-item">Hidden gems <span class="lock-icon"> <img src="./assets/tag-pro.png" alt="tag pro"/></span></span></div>
+                <div class="featured-item">Evergreen ads <span class="lock-icon"><img src="./assets/tag-pro.png" alt="tag pro"/></span></div>
+                <div class="featured-item">Testing lab <span class="lock-icon"><img src="./assets/tag-pro.png" alt="tag pro"/></span></div>
             </div>
             <div class="saved-section">
                 <h3>SAVED</h3>

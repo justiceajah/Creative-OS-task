@@ -12,11 +12,11 @@ class PlatformCard extends HTMLElement {
             <div class="section">
                 <h4>Platform</h4>
                 <div class="platform">
-                    <img src="./assets/facebook-img.png" alt="facebook logo" />
+                    <img src="../assets/facebook-img.png" alt="facebook logo" />
                     <span class"social-text">Facebook</span>
                 </div>
                 <div class="platform">
-                    <img src="./assets/instagram.png" alt="facebook logo" />
+                    <img src="../assets/instagram.png" alt="facebook logo" />
                     <span class"social-text">Instagram</span>
                 </div>
             </div>

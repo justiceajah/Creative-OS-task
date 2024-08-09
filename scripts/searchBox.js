@@ -9,7 +9,7 @@ class SearchBar extends HTMLElement {
 
     // Inner content of the search bar
     searchBar.innerHTML = `
-            <span class="search-icon"><img src="/assets/fi-br-search.svg" alt="search-icon"/></span>
+            <span class="search-icon"><img src="./assets/fi-br-search.svg" alt="search-icon"/></span>
             <input type="text" class="search-input" placeholder="Search Creative OS" />
             <span class="shortcut-key">⌘ + K</span>
         `;
