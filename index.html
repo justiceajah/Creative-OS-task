@@ -20,16 +20,18 @@
     <script src="./scripts/searchBox.js"></script>
 
     <div class="nav-header">
-        <img class="header-content" src="./assets/logo.svg" alt="logo-img" />
-        <div class="search-box-container">
-          <search-bar></search-bar>
-        </div>
-        <img class="header-content" src="./assets/menu.svg" alt="menu-button" />
+      <img class="header-content" src="./assets/logo.svg" alt="logo-img" />
+      <div class="search-box-container">
+        <search-bar></search-bar>
       </div>
+      <img
+        class="header-content hamburger"
+        src="./assets/menu.svg"
+        alt="menu-button"
+      />
+    </div>
     <div class="container">
-        
       <div class="left-navbar-container">
-        
         <left-sidebar></left-sidebar>
       </div>
       <div>
@@ -37,18 +39,37 @@
           <div class="divider"></div>
           <div>
             <header class="header">
-              <div class="header-button-container">
-                <custom-button>Back</custom-button>
-              </div>
+              <div class="header-container">
+                <div class="header-button-container">
+                  <custom-button>Back</custom-button>
+                </div>
 
-              <h1 class="page-header">Carraway’s Funnel</h1>
+                <h1 class="page-header">Carraway’s Funnel</h1>
+              </div>
+              <div class="bottom-content header-content">
+                <div class="bottom-items-container">
+                  <custom-button>Shared Funnel</custom-button>
+                  <custom-button>Save Funnel</custom-button>
+                </div>
+              </div>
             </header>
             <div class="divider"></div>
             <div class="tab-container">
               <div class="tabs">
-                <div class="tab">Ad creative</div>
+                <div
+                  class="tab lg-hide"
+                  onclick="changeImageSrc('./assets/landing-page.svg')"
+                >
+                  Ad creative
+                </div>
                 <div class="line"></div>
-                <div class="tab tab-item-end">Landing page</div>
+
+                <div
+                  class="tab tab-item-end"
+                  onclick="changeImageSrc('./assets/creative-vertical.svg')"
+                >
+                  Landing page
+                </div>
               </div>
               <div class="carousel-container">
                 <div class="carousel-indicator">
@@ -57,7 +78,7 @@
                 </div>
 
                 <div class="visit-page">
-                  <span>View laading Page</span>
+                  <span>View landing Page</span>
                   <img src="./assets/visit-icon.svg" alt="" />
                 </div>
               </div>
@@ -67,9 +88,10 @@
             <div class="content-main-wrapper">
               <div class="content-container-sm">
                 <div class="">
+                  <div class="tab tab-ad-lg tab-ad-text">Ad creative</div>
                   <img
                     class="content-img"
-                    src="./assets/creative-vertical.svg"
+                    src="./assets/landing-page.svg"
                     alt="menu-button"
                   />
                 </div>
@@ -84,6 +106,13 @@
                 </div>
               </div>
               <div class="content-container-lg">
+                <div class="section-header">
+                  <div class="tab tab-ad-text">Landing page</div>
+                  <div class="visit-page tab-ad-text">
+                    <span>View landing Page</span>
+                    <img src="./assets/visit-icon.svg" alt="" />
+                  </div>
+                </div>
                 <div class="content">
                   <img
                     class="content-img"
@@ -104,7 +133,7 @@
             </div>
           </div>
 
-          <div class="bottom-content">
+          <div class="bottom-content bottom-content-item">
             <div class="bottom-items-container">
               <custom-button>Shared Funnel</custom-button>
               <custom-button>Save Funnel</custom-button>
